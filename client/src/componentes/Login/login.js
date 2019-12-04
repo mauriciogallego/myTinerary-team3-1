@@ -128,7 +128,6 @@ class Login extends Component {
                     this.setState({ checkTC: !this.state.checkTC })
                   }
                 />
-                <Form.Text className="text-muted">Remember me.</Form.Text>
               </Form.Row>
             </Form.Group>
             {this.renderRedirect()}
